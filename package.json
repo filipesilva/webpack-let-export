@@ -1,0 +1,14 @@
+{
+  "name": "webpack-let-export",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Filipe Silva <filipematossilva@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "webpack-cli --mode development --devtool source-map && node dist/main.js"
+  },
+  "dependencies": {
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1"
+  }
+}
